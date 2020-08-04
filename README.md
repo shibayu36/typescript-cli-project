@@ -3,10 +3,18 @@ This is a sample project to create a cli tool by TypeScript.
 
 ## How to install sample cli
 ```sh
-$ npm run build
-$ npm link
+$ npm install -g shibayu36/typescript-cli-project
 $ typescript-cli-project hoge
 hoge
+```
+
+If you want to install cli from local, exec following commands.
+
+```sh
+$ git clone https://github.com/shibayu36/typescript-cli-project.git
+$ cd typescript-cli-project
+$ npm run build
+$ npm link
 ```
 
 ## How to create this project
