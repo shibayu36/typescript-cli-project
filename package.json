@@ -10,8 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --silent",
     "exec": "npm run build && node dist/main.js",
-    "lint": "eslint . --ext 'ts,js'",
-    "lint:fix": "eslint . --fix --ext 'ts,js'"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "author": "",
   "license": "MIT",
