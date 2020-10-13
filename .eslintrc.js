@@ -2,6 +2,10 @@ module.exports = {
   plugins: [],
   extends: ["eslint:recommended", "plugin:prettier/recommended", "plugin:import/recommended"],
   env: { node: true, es2020: true },
+  rules: {
+    "sort-import": "off",
+    "import/order": ["error", { alphabetize: { order: "asc" } }],
+  },
   overrides: [
     {
       files: ["src/**/*.ts"],
