@@ -3,7 +3,7 @@ module.exports = {
   extends: ["eslint:recommended", "plugin:prettier/recommended", "plugin:import/recommended"],
   env: { node: true, es2020: true },
   rules: {
-    "sort-import": "off",
+    "sort-imports": "off",
     "import/order": ["error", { alphabetize: { order: "asc" } }],
   },
   overrides: [
