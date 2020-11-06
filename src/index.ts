@@ -1,6 +1,8 @@
 const str = process.argv[2];
 run(str);
 
+const hoge = "fuga";
+
 function run(str: string): void {
   console.log(str);
 }
