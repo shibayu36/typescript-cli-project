@@ -5,7 +5,7 @@
     ":timezone(Asia/Tokyo)"
   ],
   "labels": ["dependencies", "renovate"],
-  "schedule": ["after 10pm and before 5am on every weekday", "every weekend"],
+  "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
   "pin": {
     "automerge": true
   },
