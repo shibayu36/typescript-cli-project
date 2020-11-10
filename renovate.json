@@ -10,6 +10,9 @@
   "pin": {
     "automerge": true
   },
+  "npm": {
+    "rangeStrategy": "bump"
+  },
   "packageRules": [
     {
       "packagePatterns": ["^@types/"],
