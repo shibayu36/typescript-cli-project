@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [],
-  extends: ["eslint:recommended", "plugin:prettier/recommended", "plugin:import/recommended"],
+  extends: ["eslint:recommended", "plugin:import/recommended", "prettier"],
   env: { node: true, es2020: true },
   rules: {
     "sort-imports": "off",
