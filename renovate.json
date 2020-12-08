@@ -1,9 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base",
-    ":timezone(Asia/Tokyo)"
-  ],
+  "extends": ["config:base", ":timezone(Asia/Tokyo)"],
   "labels": ["dependencies", "renovate"],
   "schedule": ["after 10pm and before 5am every weekday", "every weekend"],
   "dependencyDashboard": true,
@@ -23,10 +20,7 @@
     },
     {
       "groupName": "jest",
-      "sourceUrlPrefixes": [
-        "https://github.com/facebook/jest",
-        "https://github.com/kulshekhar/ts-jest"
-      ]
+      "sourceUrlPrefixes": ["https://github.com/facebook/jest", "https://github.com/kulshekhar/ts-jest"]
     },
     {
       "groupName": "linters",
@@ -35,5 +29,4 @@
       "packagePatterns": ["^@typescript-eslint/"]
     }
   ]
-
 }
