@@ -29,7 +29,7 @@ $ npm install --save-dev typescript @types/node
 # webpack
 $ npm install --save-dev webpack webpack-cli ts-loader
 # eslint & prettier
-$ npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser prettier eslint-config-prettier eslint-plugin-import
+$ npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser prettier eslint-config-prettier eslint-plugin-import npm-run-all
 ```
 
 Setup build configuration. tsconfig.json, webpack.config.js, etc.
